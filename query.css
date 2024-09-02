@@ -1,0 +1,26 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.create{
+    position: relative;
+    top: 233px;
+    left: 384px;
+}
+.submit{
+    position: relative;
+    cursor: pointer;
+    left: 230px;
+}
+
